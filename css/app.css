@@ -172,6 +172,15 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(232,254,255,1) 5
     }
 }
 
+.productoEspecial:hover{
+    transform: scale(1.02);
+    transition: 1s ease-out;
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
 .producto {
     display: grid;
     grid-template-columns: 55% 45%;
@@ -180,7 +189,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(232,254,255,1) 5
 }
 
 .producto__nombre {
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
 }
 .producto__descripcion {
@@ -188,7 +197,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(232,254,255,1) 5
 }
 .producto__precio {
     color: var(--primary);
-    font-size: 6rem;
+    font-size: 3.5rem;
     font-weight: 900;
     margin: 0;
 }
