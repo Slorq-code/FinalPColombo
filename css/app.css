@@ -439,8 +439,11 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(232,254,255,1) 5
 }
 
 .nosotros__grid {
-    display: grid;
-    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.nosotros__grid__img {
+    width: 100%;
 }
 @media (min-width: 768px) { 
     .nosotros__grid {
